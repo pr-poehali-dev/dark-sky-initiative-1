@@ -9,14 +9,13 @@ export default function Featured() {
         />
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600" id="features">Возможности карты</h3>
+        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600" id="features">О проекте</h3>
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Не просто карта — живой инструмент исследования. Слои данных, умный поиск и детализация
-          до любого уровня делают навигацию интуитивной и точной.
+          Климатические рекорды, природные феномены и мистические места Пермского края — собраны в одном месте на основе данных ГИС-центра ПГНИУ и полевых экспедиций.
         </p>
-        <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
+        <a href="#map" className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide inline-block">
           Открыть карту
-        </button>
+        </a>
       </div>
     </div>
   );

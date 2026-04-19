@@ -26,15 +26,16 @@ export default function Hero() {
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
+        <p className="text-sm uppercase tracking-widest mb-4 opacity-70">Пермский край · 1975–2025</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ИССЛЕДУЙ
+          РЕКОРДЫ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Интерактивная карта — твой проводник в любое место на планете
+          16 климатических рекордов и мистических мест на интерактивной карте
         </p>
-        <button className="mt-8 px-8 py-3 border border-white text-white uppercase text-sm tracking-wide hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">
+        <a href="#map" className="mt-8 inline-block px-8 py-3 border border-white text-white uppercase text-sm tracking-wide hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">
           Открыть карту
-        </button>
+        </a>
       </div>
     </div>
   );

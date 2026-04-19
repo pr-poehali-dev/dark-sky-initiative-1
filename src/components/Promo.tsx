@@ -26,12 +26,11 @@ export default function Promo() {
       </div>
 
       <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Мир на ладони
+        Пермский край
       </h3>
 
       <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая точка на карте — это история. Исследуй маршруты, открывай новые места
-        и делись находками с теми, кто в пути вместе с тобой.
+        От -55°C в Большой Сосново до мистических берегов Адова озера — природа Прикамья не знает полутонов.
       </p>
     </div>
   );
